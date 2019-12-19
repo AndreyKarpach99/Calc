@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="calc">
+        <div class="calc__title">
+            Калькулятор
+        </div>
+        <div class="calc__people">
+            <div class="calc__people-text">Количество людей</div>
+            <div class="calc__people-input">
+                <input type="text" class="calc__days-inputNumber">
+            </div>
+        </div>
+        <div class="calc__days">
+            <div class="calc__days-text">Количество людей</div>
+            <div class="calc__days-input">
+                <input type="text" class="calc__days-inputNumber">
+            </div>
+        </div>
+        <div class="calc__select">
+            <div class="calc__select-text">
+                Выберите пункт
+            </div>
+            <div class="calc__select-item">
+                <select id="select">
+                    <option id="item1" value="1">Пункт 1</option>
+                    <option id="item2" value="1.2">Пункт 2</option>
+                    <option id="item" value="1.5">Пункт 3</option>
+                </select>
+            </div>
+        </div>
+        <div class="calc__total-value">
+            <div class="calc__totalValue__text">Итого:</div>
+            <div class="calc__totalValue__block" id="total">178</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
